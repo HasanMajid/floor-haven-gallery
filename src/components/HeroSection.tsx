@@ -2,6 +2,12 @@ import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-image.jpg";
 
 export const HeroSection = () => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <section className="relative min-h-screen flex items-center">
       <div 
@@ -20,10 +26,20 @@ export const HeroSection = () => {
           Professional installation of indoor & outdoor carpets, wall-to-wall, stair runners, and expert repairs. Quality craftsmanship from an experienced local installer.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button variant="hero" size="lg" className="text-lg px-8 py-6">
+          <Button 
+            variant="hero" 
+            size="lg" 
+            className="text-lg px-8 py-6"
+            onClick={() => scrollToSection('quote-form')}
+          >
             Get Free Estimate
           </Button>
-          <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-white bg-white/10 backdrop-blur-sm text-foreground hover:bg-white hover:text-deep-wood">
+          <Button 
+            variant="outline" 
+            size="lg" 
+            className="text-lg px-8 py-6 border-white bg-white/10 backdrop-blur-sm text-foreground hover:bg-white hover:text-deep-wood"
+            onClick={() => scrollToSection('gallery')}
+          >
             View Our Work
           </Button>
         </div>

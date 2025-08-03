@@ -112,7 +112,7 @@ export const ContactSection = () => {
         </Card>
         
         {/* Quote Form */}
-        <Card className="max-w-3xl mx-auto mt-12 shadow-warm border-0">
+        <Card id="quote-form" className="max-w-3xl mx-auto mt-12 shadow-warm border-0">
           <CardContent className="p-8">
             <div className="text-center mb-8">
               <h3 className="text-3xl font-bold mb-4 text-foreground">Get Your Free Quote</h3>
