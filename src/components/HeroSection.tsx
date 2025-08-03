@@ -17,7 +17,7 @@ export const HeroSection = () => {
           & Flooring Solutions
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-soft-beige">
-          Professional installation of indoor & outdoor carpets, wall-to-wall, stair runners, and expert repairs. Transform your space with quality flooring.
+          Professional installation of indoor & outdoor carpets, wall-to-wall, stair runners, and expert repairs. Quality craftsmanship from an experienced local installer.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button variant="hero" size="lg" className="text-lg px-8 py-6">

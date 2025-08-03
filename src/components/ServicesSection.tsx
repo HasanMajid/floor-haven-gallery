@@ -33,8 +33,8 @@ export const ServicesSection = () => {
             Our <span className="text-rich-gold">Services</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We specialize in complete carpeting solutions from sales to installation. 
-            Our experienced team handles both indoor and outdoor projects with precision and care.
+            I specialize in complete carpeting solutions from sales to installation. 
+            With years of experience, I handle both indoor and outdoor projects with precision and care.
           </p>
         </div>
         
@@ -61,7 +61,7 @@ export const ServicesSection = () => {
             <h3 className="text-2xl font-bold mb-4 text-foreground">Wall-to-Wall Installation</h3>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Complete wall-to-wall carpet installation service for residential and commercial properties. 
-              We handle everything from measurement to final cleanup, ensuring a perfect fit every time.
+              I handle everything from measurement to final cleanup, ensuring a perfect fit every time.
             </p>
           </div>
         </div>
