@@ -23,7 +23,7 @@ export const HeroSection = () => {
           <Button variant="hero" size="lg" className="text-lg px-8 py-6">
             Get Free Estimate
           </Button>
-          <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-white text-white hover:bg-white hover:text-deep-wood">
+          <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-white bg-white/10 backdrop-blur-sm text-foreground hover:bg-white hover:text-deep-wood">
             View Our Work
           </Button>
         </div>
