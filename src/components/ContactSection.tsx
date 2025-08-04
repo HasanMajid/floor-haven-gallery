@@ -25,7 +25,7 @@ export const ContactSection = () => {
                 <Phone className="h-6 w-6 text-white" />
               </div>
               <h3 className="font-semibold mb-2 text-foreground">Phone</h3>
-              <p className="text-muted-foreground">(555) 123-4567</p>
+              <p className="text-muted-foreground">(647) 886-0935</p>
             </CardContent>
           </Card>
           
@@ -35,7 +35,7 @@ export const ContactSection = () => {
                 <Mail className="h-6 w-6 text-white" />
               </div>
               <h3 className="font-semibold mb-2 text-foreground">Email</h3>
-              <p className="text-muted-foreground">info@premiumcarpets.com</p>
+              <p className="text-muted-foreground">buttraheel17@gmail.com</p>
             </CardContent>
           </Card>
           
@@ -45,7 +45,7 @@ export const ContactSection = () => {
                 <MapPin className="h-6 w-6 text-white" />
               </div>
               <h3 className="font-semibold mb-2 text-foreground">Address</h3>
-              <p className="text-muted-foreground">123 Carpet Street<br />Floortown, ST 12345</p>
+              <p className="text-muted-foreground">285 North Service Road<br />Mississauga, Ontario</p>
             </CardContent>
           </Card>
           
