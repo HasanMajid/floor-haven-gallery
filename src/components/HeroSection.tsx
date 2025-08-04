@@ -64,7 +64,7 @@ export const HeroSection = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-2xl font-bold text-white mb-2">Michael Rodriguez</h3>
+              <h3 className="text-2xl font-bold text-white mb-2">Raheel</h3>
               <p className="text-rich-gold font-semibold mb-3">Carpet Installation Expert</p>
               <p className="text-soft-beige text-sm leading-relaxed mb-4">
                 15+ years serving Mississauga with expert carpet installation, repair, and flooring solutions. Licensed, insured, and committed to exceptional craftsmanship.

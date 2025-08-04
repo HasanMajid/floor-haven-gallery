@@ -65,7 +65,7 @@ export const ContactSection = () => {
           </CardContent>
         </Card>
         
-        <Card className="max-w-4xl mx-auto shadow-warm border-0">
+        {/* <Card className="max-w-4xl mx-auto shadow-warm border-0">
           <CardContent className="p-8">
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -114,7 +114,7 @@ export const ContactSection = () => {
               </div>
             </div>
           </CardContent>
-        </Card>
+        </Card> */}
         
         {/* Quote Form */}
         <Card id="quote-form" className="max-w-3xl mx-auto mt-12 shadow-warm border-0">
