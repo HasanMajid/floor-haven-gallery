@@ -22,8 +22,13 @@ export const HeroSection = () => {
           Premium <span className="text-rich-gold">Carpeting</span><br />
           & Flooring Solutions
         </h1>
+        <div className="mb-6">
+          <span className="inline-block px-6 py-3 bg-rich-gold/20 border border-rich-gold/30 text-rich-gold rounded-full text-xl font-semibold backdrop-blur-sm">
+            📍 Proudly Serving Mississauga, Ontario
+          </span>
+        </div>
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-soft-beige">
-          Professional installation of indoor & outdoor carpets, wall-to-wall, stair runners, and expert repairs. Quality craftsmanship from an experienced local installer.
+          Professional installation of indoor & outdoor carpets, wall-to-wall, stair runners, and expert repairs. Quality craftsmanship from your trusted Mississauga installer.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button 

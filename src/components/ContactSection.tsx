@@ -93,17 +93,17 @@ export const ContactSection = () => {
               </div>
               
               <div>
-                <h3 className="text-2xl font-bold mb-6 text-foreground">Service Areas</h3>
+                <h3 className="text-2xl font-bold mb-6 text-foreground">Service Area</h3>
                 <div className="space-y-4">
                   <p className="text-muted-foreground">
-                    I proudly serve the greater metropolitan area and surrounding communities:
+                    I exclusively serve Mississauga, Ontario and provide personalized, local service:
                   </p>
                   <ul className="text-muted-foreground space-y-2">
-                    <li>• Downtown & Central District</li>
-                    <li>• Residential Neighborhoods</li>
-                    <li>• Commercial Business Parks</li>
-                    <li>• Suburban Communities</li>
-                    <li>• Within 50 miles of our location</li>
+                    <li>• All Mississauga neighborhoods</li>
+                    <li>• Residential homes & condos</li>
+                    <li>• Local businesses & offices</li>
+                    <li>• Quick response times across the city</li>
+                    <li>• Deep knowledge of local building codes</li>
                   </ul>
                   <div className="mt-6 p-4 bg-gradient-to-r from-primary/10 to-rich-gold/10 rounded-lg">
                     <p className="text-sm text-foreground font-medium">
