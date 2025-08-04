@@ -18,47 +18,52 @@ export const ContactSection = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-          <Card className="text-center shadow-soft border-0">
-            <CardContent className="p-6">
-              <div className="w-12 h-12 mx-auto mb-4 bg-primary rounded-full flex items-center justify-center">
-                <Phone className="h-6 w-6 text-white" />
+        <Card className="max-w-2xl mx-auto mb-12 shadow-soft border-0">
+          <CardContent className="p-8">
+            <h3 className="text-2xl font-bold text-center mb-8 text-foreground">Contact Information</h3>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+                  <Phone className="h-5 w-5 text-white" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-foreground">Phone</h4>
+                  <p className="text-muted-foreground">(647) 886-0935</p>
+                </div>
               </div>
-              <h3 className="font-semibold mb-2 text-foreground">Phone</h3>
-              <p className="text-muted-foreground">(647) 886-0935</p>
-            </CardContent>
-          </Card>
-          
-          <Card className="text-center shadow-soft border-0">
-            <CardContent className="p-6">
-              <div className="w-12 h-12 mx-auto mb-4 bg-rich-gold rounded-full flex items-center justify-center">
-                <Mail className="h-6 w-6 text-white" />
+              
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 bg-rich-gold rounded-full flex items-center justify-center flex-shrink-0">
+                  <Mail className="h-5 w-5 text-white" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-foreground">Email</h4>
+                  <p className="text-muted-foreground">buttraheel17@gmail.com</p>
+                </div>
               </div>
-              <h3 className="font-semibold mb-2 text-foreground">Email</h3>
-              <p className="text-muted-foreground">buttraheel17@gmail.com</p>
-            </CardContent>
-          </Card>
-          
-          <Card className="text-center shadow-soft border-0">
-            <CardContent className="p-6">
-              <div className="w-12 h-12 mx-auto mb-4 bg-warm-brown rounded-full flex items-center justify-center">
-                <MapPin className="h-6 w-6 text-white" />
+              
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 bg-warm-brown rounded-full flex items-center justify-center flex-shrink-0">
+                  <MapPin className="h-5 w-5 text-white" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-foreground">Address</h4>
+                  <p className="text-muted-foreground">285 North Service Road<br />Mississauga, Ontario</p>
+                </div>
               </div>
-              <h3 className="font-semibold mb-2 text-foreground">Address</h3>
-              <p className="text-muted-foreground">285 North Service Road<br />Mississauga, Ontario</p>
-            </CardContent>
-          </Card>
-          
-          <Card className="text-center shadow-soft border-0">
-            <CardContent className="p-6">
-              <div className="w-12 h-12 mx-auto mb-4 bg-accent rounded-full flex items-center justify-center">
-                <Clock className="h-6 w-6 text-white" />
+              
+              <div className="flex items-center gap-4">
+                <div className="w-10 h-10 bg-accent rounded-full flex items-center justify-center flex-shrink-0">
+                  <Clock className="h-5 w-5 text-white" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-foreground">Business Hours</h4>
+                  <p className="text-muted-foreground">Mon-Fri: 8AM-6PM<br />Sat: 9AM-4PM</p>
+                </div>
               </div>
-              <h3 className="font-semibold mb-2 text-foreground">Hours</h3>
-              <p className="text-muted-foreground">Mon-Fri: 8AM-6PM<br />Sat: 9AM-4PM</p>
-            </CardContent>
-          </Card>
-        </div>
+            </div>
+          </CardContent>
+        </Card>
         
         <Card className="max-w-4xl mx-auto shadow-warm border-0">
           <CardContent className="p-8">
