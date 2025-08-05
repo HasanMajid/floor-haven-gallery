@@ -29,8 +29,8 @@ export const Navigation = () => {
     { label: 'Services', id: 'services' },
     { label: 'Gallery', id: 'gallery' },
     { label: 'Process', id: 'process' },
-    { label: 'Testimonials', id: 'testimonials' },
-    { label: 'FAQ', id: 'faq' },
+    // { label: 'Testimonials', id: 'testimonials' },
+    // { label: 'FAQ', id: 'faq' },
     { label: 'Contact', id: 'contact' },
   ];
 
