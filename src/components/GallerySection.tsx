@@ -30,8 +30,48 @@ const carpetWork = [
     description: "Modern grey patterned carpet with contrasting wood trim"
   },
   {
+    src: "/lovable-uploads/03625bff-2378-458c-a0c2-5c15f6ab1ac5.png",
+    title: "Wool Carpet Collection",
+    description: "Premium wool carpets for custom area rugs and broadloom"
+  },
+  {
+    src: "/lovable-uploads/c44142fb-7bca-4220-982b-52ed10242a88.png",
+    title: "Textured Wool Samples",
+    description: "Various textures and weaves for custom installations"
+  },
+  {
+    src: "/lovable-uploads/25e2dc6b-8671-4f9f-8ecb-aeb8f7253a5f.png",
+    title: "Custom Area Rug Options",
+    description: "Wide selection of patterns and colors for area rugs"
+  },
+  {
+    src: "/lovable-uploads/3602c679-4da4-4fbf-9635-00de0856f39b.png",
+    title: "Broadloom Carpet Selection",
+    description: "Professional-grade carpeting for large installations"
+  },
+  {
+    src: "/lovable-uploads/03e01268-9e31-4733-a3a3-dc785c24381d.png",
+    title: "Gladiator Series Collection",
+    description: "Durable carpet options including Armor, Sword, and Knight styles"
+  },
+  {
+    src: "/lovable-uploads/1a69a776-1540-4193-8c77-cda50b94b4e1.png",
+    title: "Brickyard III Series",
+    description: "Specialty carpets including Speedway and Race Track patterns"
+  },
+  {
+    src: "/lovable-uploads/a0c20fb7-9620-436d-855c-2b5b79c29a8d.png",
+    title: "Keywest & Bedford Collections",
+    description: "Premium residential carpet options in neutral tones"
+  },
+  {
+    src: "/lovable-uploads/e8afbcb8-9eb2-4762-b767-36831f355672.png",
+    title: "Ace Berber Series",
+    description: "Classic berber carpets in multiple natural tones"
+  },
+  {
     src: "/lovable-uploads/5368c50b-62f4-4817-8ecf-70f8011c68f5.png",
-    title: "Carpet Sample Selection",
+    title: "Color Sample Board",
     description: "Wide variety of colors and textures available"
   },
   {
