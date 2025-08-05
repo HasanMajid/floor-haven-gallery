@@ -1,4 +1,25 @@
-import { CarpetCarousel } from "./CarpetCarousel";
+import carpet1 from "@/assets/carpet-1.jpg";
+import carpet2 from "@/assets/carpet-2.jpg";
+import carpet3 from "@/assets/carpet-3.jpg";
+import carpet4 from "@/assets/carpet-4.jpg";
+
+const carpetWork = [
+  {
+    src: carpet1,
+    title: "Stair Carpet Installation",
+    description: "Professional stair runner installation"
+  },
+  {
+    src: carpet2,
+    title: "Outdoor Grey Stair Carpet",
+    description: "Weather-resistant outdoor carpeting"
+  },
+  {
+    src: carpet3,
+    title: "Residential Carpet Installation",
+    description: "Premium indoor carpet solutions"
+  }
+];
 
 export const GallerySection = () => {
   return (
@@ -6,15 +27,34 @@ export const GallerySection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            Our <span className="text-rich-gold">Portfolio</span>
+            Our Work <span className="text-rich-gold">Gallery</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Explore our recent carpet installations and see the quality craftsmanship 
-            we bring to every project. From luxury residential to commercial spaces.
+            A showcase of our finest carpeting and flooring installations.
           </p>
         </div>
         
-        <CarpetCarousel />
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          {carpetWork.map((work, index) => (
+            <div key={index} className="group relative overflow-hidden rounded-lg shadow-warm hover:shadow-lg transition-all duration-300">
+              <div className="aspect-[4/3] overflow-hidden">
+                <img
+                  src={work.src}
+                  alt={work.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-deep-wood/90 to-transparent p-6">
+                <h3 className="text-white text-lg font-semibold mb-1">
+                  {work.title}
+                </h3>
+                <p className="text-soft-beige text-sm">
+                  {work.description}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
         
         <div className="text-center mt-12">
           <p className="text-lg text-muted-foreground mb-6">
