@@ -20,6 +20,11 @@ const carpetWork = [
     description: "Elegant herringbone pattern carpet with dark wood trim"
   },
   {
+    src: "/lovable-uploads/de8df702-1112-4b94-a921-86b5da35fe0f.png",
+    title: "Bold Red Stair Runner",
+    description: "Vibrant red carpet runner installation on curved staircase"
+  },
+  {
     src: "/lovable-uploads/ea472202-772c-46c6-b230-d6f2fdf49108.png",
     title: "Animal Print Stair Runner",
     description: "Bold leopard print carpet for statement staircases"
