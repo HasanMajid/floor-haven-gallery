@@ -15,19 +15,59 @@ const carpetWork = [
     description: "Textured carpet with professional edge finishing"
   },
   {
+    src: "/lovable-uploads/b3b3b2c4-7584-4df1-af65-b7f3b2069945.png",
+    title: "Herringbone Pattern Staircase",
+    description: "Elegant herringbone pattern carpet with dark wood trim"
+  },
+  {
+    src: "/lovable-uploads/ea472202-772c-46c6-b230-d6f2fdf49108.png",
+    title: "Animal Print Stair Runner",
+    description: "Bold leopard print carpet for statement staircases"
+  },
+  {
     src: "/lovable-uploads/9342da7d-c104-4d16-9813-a248c6a6635b.png",
     title: "Elegant Curved Staircase",
     description: "Premium patterned carpet on curved staircase with railings"
   },
   {
-    src: "/lovable-uploads/0d397c83-71fd-49a7-b110-484558ef7f35.png",
-    title: "Traditional Curved Stairs",
-    description: "Classic grey carpet installation on wooden staircase"
+    src: "/lovable-uploads/b5d07655-5a4e-48da-a8a7-7210c81a2cbe.png",
+    title: "Waterford Collection by Nature's Carpet",
+    description: "Premium natural fiber carpets including Billberry, Glenville, and Rockshire"
   },
   {
-    src: "/lovable-uploads/1367a976-993a-47ab-8134-9a56bc02698e.png",
-    title: "Contemporary Stair Design",
-    description: "Modern grey patterned carpet with contrasting wood trim"
+    src: "/lovable-uploads/57f3e7d8-f367-4599-ada3-fead4bfecee2.png",
+    title: "Naples II Performance Fiber",
+    description: "Solution dyed performance fiber carpet in neutral tones"
+  },
+  {
+    src: "/lovable-uploads/3bc709c3-3524-4336-a3a2-09982fd84a4d.png",
+    title: "Glasgow Carpet Series",
+    description: "Durable Glasgow collection in multiple color variations"
+  },
+  {
+    src: "/lovable-uploads/bb3ff0e6-4e84-4ae3-8bc1-13a8ea889ac2.png",
+    title: "Perth Collection",
+    description: "Perth series carpet samples in sophisticated neutral palettes"
+  },
+  {
+    src: "/lovable-uploads/a0c54982-759e-4d89-9269-7bc3a6104514.png",
+    title: "City Park II Collection",
+    description: "Urban-inspired carpet designs including Art District and Metro Plaza"
+  },
+  {
+    src: "/lovable-uploads/19de2a5e-6be3-4989-a462-9568d9082f11.png",
+    title: "Berber Carpet Selection - Dark Tones",
+    description: "Premium berber carpets in charcoal and navy blue shades"
+  },
+  {
+    src: "/lovable-uploads/691d82b6-3aa5-4bbd-bdeb-6e0bd22b6296.png",
+    title: "Berber Carpet Selection - Earth Tones",
+    description: "Natural berber carpets in beige, brown, and accent colors"
+  },
+  {
+    src: "/lovable-uploads/252564f4-0b2d-452a-8809-3a251d2b533b.png",
+    title: "28oz Berber Collection",
+    description: "Heavy-duty berber carpets including Cambridge, Oxford, and Stanford"
   },
   {
     src: "/lovable-uploads/03625bff-2378-458c-a0c2-5c15f6ab1ac5.png",
@@ -55,29 +95,9 @@ const carpetWork = [
     description: "Durable carpet options including Armor, Sword, and Knight styles"
   },
   {
-    src: "/lovable-uploads/1a69a776-1540-4193-8c77-cda50b94b4e1.png",
-    title: "Brickyard III Series",
-    description: "Specialty carpets including Speedway and Race Track patterns"
-  },
-  {
-    src: "/lovable-uploads/a0c20fb7-9620-436d-855c-2b5b79c29a8d.png",
-    title: "Keywest & Bedford Collections",
-    description: "Premium residential carpet options in neutral tones"
-  },
-  {
-    src: "/lovable-uploads/e8afbcb8-9eb2-4762-b767-36831f355672.png",
-    title: "Ace Berber Series",
-    description: "Classic berber carpets in multiple natural tones"
-  },
-  {
     src: "/lovable-uploads/5368c50b-62f4-4817-8ecf-70f8011c68f5.png",
     title: "Color Sample Board",
     description: "Wide variety of colors and textures available"
-  },
-  {
-    src: "/lovable-uploads/a2ccaa90-e861-4036-9404-febb23c65019.png",
-    title: "Naples Carpet Collection",
-    description: "Premium carpet samples in multiple neutral tones"
   }
 ];
 
