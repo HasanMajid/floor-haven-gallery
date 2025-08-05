@@ -1,23 +1,43 @@
-import carpet1 from "@/assets/carpet-1.jpg";
-import carpet2 from "@/assets/carpet-2.jpg";
-import carpet3 from "@/assets/carpet-3.jpg";
-import carpet4 from "@/assets/carpet-4.jpg";
-
 const carpetWork = [
   {
-    src: carpet1,
-    title: "Stair Carpet Installation",
-    description: "Professional stair runner installation"
+    src: "/lovable-uploads/96937ec8-5153-4768-ac34-57e17e0d3565.png",
+    title: "Modern Stair Runner Installation",
+    description: "Professional beige carpet runner with precise installation"
   },
   {
-    src: carpet2,
-    title: "Outdoor Grey Stair Carpet",
-    description: "Weather-resistant outdoor carpeting"
+    src: "/lovable-uploads/efa019c3-be7a-45c9-8d71-ca1bcfaddc2b.png",
+    title: "Outdoor Stair Carpeting",
+    description: "Weather-resistant grey carpet for exterior stairs"
   },
   {
-    src: carpet3,
-    title: "Residential Carpet Installation",
-    description: "Premium indoor carpet solutions"
+    src: "/lovable-uploads/c4853337-fff3-496e-9d25-862cff8998f8.png",
+    title: "Custom Stair Runner",
+    description: "Textured carpet with professional edge finishing"
+  },
+  {
+    src: "/lovable-uploads/9342da7d-c104-4d16-9813-a248c6a6635b.png",
+    title: "Elegant Curved Staircase",
+    description: "Premium patterned carpet on curved staircase with railings"
+  },
+  {
+    src: "/lovable-uploads/0d397c83-71fd-49a7-b110-484558ef7f35.png",
+    title: "Traditional Curved Stairs",
+    description: "Classic grey carpet installation on wooden staircase"
+  },
+  {
+    src: "/lovable-uploads/1367a976-993a-47ab-8134-9a56bc02698e.png",
+    title: "Contemporary Stair Design",
+    description: "Modern grey patterned carpet with contrasting wood trim"
+  },
+  {
+    src: "/lovable-uploads/5368c50b-62f4-4817-8ecf-70f8011c68f5.png",
+    title: "Carpet Sample Selection",
+    description: "Wide variety of colors and textures available"
+  },
+  {
+    src: "/lovable-uploads/a2ccaa90-e861-4036-9404-febb23c65019.png",
+    title: "Naples Carpet Collection",
+    description: "Premium carpet samples in multiple neutral tones"
   }
 ];
 
