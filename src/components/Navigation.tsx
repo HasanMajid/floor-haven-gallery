@@ -53,7 +53,7 @@ export const Navigation = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-foreground hover:text-rich-gold transition-colors duration-200 font-medium"
+                className="text-primary hover:text-rich-gold transition-colors duration-200 font-medium"
               >
                 {item.label}
               </button>
