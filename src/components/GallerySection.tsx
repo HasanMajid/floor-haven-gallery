@@ -106,7 +106,12 @@ const carpetWork = [
   }
 ];
 
+import { useState } from 'react';
+import { X } from 'lucide-react';
+
 export const GallerySection = () => {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
   return (
     <section id="gallery" className="py-20 bg-background">
       <div className="container mx-auto px-6">
@@ -121,7 +126,11 @@ export const GallerySection = () => {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {carpetWork.map((work, index) => (
-            <div key={index} className="group relative overflow-hidden rounded-lg shadow-warm hover:shadow-lg transition-all duration-300">
+            <div 
+              key={index} 
+              className="group relative overflow-hidden rounded-lg shadow-warm hover:shadow-lg transition-all duration-300 cursor-pointer"
+              onClick={() => setSelectedImage(work.src)}
+            >
               <div className="aspect-[4/3] overflow-hidden">
                 <img
                   src={work.src}
@@ -155,6 +164,28 @@ export const GallerySection = () => {
           </div>
         </div>
       </div>
+
+      {/* Image Modal */}
+      {selectedImage && (
+        <div 
+          className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4"
+          onClick={() => setSelectedImage(null)}
+        >
+          <div className="relative max-w-4xl max-h-[90vh] w-full">
+            <button
+              onClick={() => setSelectedImage(null)}
+              className="absolute top-4 right-4 z-10 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 transition-colors"
+            >
+              <X className="h-6 w-6" />
+            </button>
+            <img
+              src={selectedImage}
+              alt="Enlarged gallery image"
+              className="w-full h-full object-contain rounded-lg"
+            />
+          </div>
+        </div>
+      )}
     </section>
   );
 };

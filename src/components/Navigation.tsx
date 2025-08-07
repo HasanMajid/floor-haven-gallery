@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import logo from '@/assets/logo.png';
+import logo from '@/assets/carpetnfloor-logo.png';
 
 export const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -44,7 +44,7 @@ export const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <img src={logo} alt="Rodriguez Carpeting" className="h-8 w-auto" />
+            <img src={logo} alt="CarpetnFloor" className="h-8 w-auto" />
           </div>
 
           {/* Desktop Navigation */}
