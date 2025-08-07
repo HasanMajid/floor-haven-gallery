@@ -53,7 +53,11 @@ export const Navigation = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="px-4 py-2 text-white/90 hover:text-rich-gold hover:bg-white/10 rounded-lg transition-all duration-200 font-medium backdrop-blur-sm"
+                className={`px-4 py-2 hover:text-rich-gold rounded-lg transition-all duration-200 font-medium ${
+                  isScrolled 
+                    ? 'text-foreground hover:bg-muted' 
+                    : 'text-white/90 hover:bg-white/10 backdrop-blur-sm'
+                }`}
               >
                 {item.label}
               </button>
