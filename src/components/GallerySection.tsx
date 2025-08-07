@@ -128,14 +128,14 @@ export const GallerySection = () => {
           {carpetWork.map((work, index) => (
             <div 
               key={index} 
-              className="group relative overflow-hidden rounded-lg shadow-warm hover:shadow-lg transition-all duration-300 cursor-pointer"
+              className="group relative overflow-hidden rounded-lg shadow-warm hover:shadow-lg transition-all duration-300 cursor-pointer transform hover:scale-105"
               onClick={() => setSelectedImage(work.src)}
             >
               <div className="aspect-[4/3] overflow-hidden">
                 <img
                   src={work.src}
                   alt={work.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 ease-out"
                 />
               </div>
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-deep-wood/90 to-transparent p-6">
@@ -171,9 +171,12 @@ export const GallerySection = () => {
           className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4"
           onClick={() => setSelectedImage(null)}
         >
-          <div className="relative max-w-4xl max-h-[90vh] w-full">
+          <div className="relative w-full h-full flex items-center justify-center">
             <button
-              onClick={() => setSelectedImage(null)}
+              onClick={(e) => {
+                e.stopPropagation();
+                setSelectedImage(null);
+              }}
               className="absolute top-4 right-4 z-10 bg-black/50 text-white p-2 rounded-full hover:bg-black/70 transition-colors"
             >
               <X className="h-6 w-6" />
@@ -181,7 +184,8 @@ export const GallerySection = () => {
             <img
               src={selectedImage}
               alt="Enlarged gallery image"
-              className="w-full h-full object-contain rounded-lg"
+              className="max-w-[95vw] max-h-[95vh] w-auto h-auto object-contain rounded-lg shadow-2xl"
+              onClick={(e) => e.stopPropagation()}
             />
           </div>
         </div>
