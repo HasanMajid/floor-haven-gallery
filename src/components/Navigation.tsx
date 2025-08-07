@@ -79,7 +79,9 @@ export const Navigation = () => {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="md:hidden text-foreground hover:text-rich-gold transition-colors p-2"
+              className={`md:hidden hover:text-rich-gold transition-colors p-2 ${
+                isScrolled ? 'text-foreground' : 'text-white'
+              }`}
             >
               {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -88,7 +90,7 @@ export const Navigation = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden bg-background/95 backdrop-blur-md border-t border-border">
+          <div className="md:hidden bg-background border-t border-border">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navItems.map((item) => (
                 <button
