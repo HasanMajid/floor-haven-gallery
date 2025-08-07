@@ -38,7 +38,7 @@ export const Navigation = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled 
         ? 'bg-background/95 backdrop-blur-md shadow-lg border-b border-border' 
-        : 'bg-transparent'
+        : 'bg-white/10 backdrop-blur-sm'
     }`}>
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
@@ -48,12 +48,12 @@ export const Navigation = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-2">
             {navItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-primary hover:text-rich-gold transition-colors duration-200 font-medium"
+                className="px-4 py-2 text-white/90 hover:text-rich-gold hover:bg-white/10 rounded-lg transition-all duration-200 font-medium backdrop-blur-sm"
               >
                 {item.label}
               </button>
