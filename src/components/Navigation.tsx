@@ -70,7 +70,7 @@ export const Navigation = () => {
               variant="gold"
               size="sm"
               className="hidden sm:flex items-center gap-2"
-              onClick={() => window.open('tel:+1-905-123-4567', '_self')}
+              onClick={() => window.open('tel:+1-647-886-0935', '_self')}
             >
               <Phone className="h-4 w-4" />
               Call Now
@@ -106,10 +106,10 @@ export const Navigation = () => {
                   variant="gold"
                   size="sm"
                   className="w-full flex items-center justify-center gap-2"
-                  onClick={() => window.open('tel:+1-905-123-4567', '_self')}
+                  onClick={() => window.open('tel:+1-647-886-0935', '_self')}
                 >
                   <Phone className="h-4 w-4" />
-                  Call Now: (905) 123-4567
+                  Call Now: (647) 886-0935
                 </Button>
               </div>
             </div>
