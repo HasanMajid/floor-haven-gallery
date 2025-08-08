@@ -38,7 +38,7 @@ export const Navigation = () => {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled 
         ? 'bg-background/95 backdrop-blur-md shadow-lg border-b border-border' 
-        : 'bg-white/10 backdrop-blur-sm'
+        : 'md:bg-white/10 md:backdrop-blur-sm bg-background/95 border-b border-border'
     }`}>
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
