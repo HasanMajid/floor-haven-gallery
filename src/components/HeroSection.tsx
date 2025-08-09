@@ -56,7 +56,7 @@ export const HeroSection = () => {
               </p>
               <div className="flex justify-center space-x-4 text-xs text-soft-beige">
                 
-                <span>✓ 15+ Years Experience</span>
+                <span>✓ 20+ Years Experience</span>
                 <span>✓ Local Expert</span>
               </div>
             </div>
