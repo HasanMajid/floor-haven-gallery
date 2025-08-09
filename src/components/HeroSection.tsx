@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-image.jpg";
-import michaelPhoto from "@/assets/michael-rodriguez.jpg";
+const raheelPhoto = "/lovable-uploads/3aee0e0d-1e7a-41ea-8b80-606a2c779518.png";
 
 export const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
@@ -59,7 +59,7 @@ export const HeroSection = () => {
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20">
               <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-rich-gold shadow-lg">
                  <img 
-                  src={michaelPhoto} 
+                  src={raheelPhoto} 
                   alt="Raheel - Carpet Installation Expert" 
                   className="w-full h-full object-cover"
                 />
