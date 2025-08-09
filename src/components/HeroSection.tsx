@@ -61,7 +61,7 @@ export const HeroSection = () => {
                  <img 
                   src={raheelPhoto} 
                   alt="Raheel - Carpet Installation Expert" 
-                  className="w-full h-full object-cover object-[center_10%]"
+                  className="w-full h-full object-cover object-[center_35%]"
                 />
               </div>
               <h3 className="text-2xl font-bold text-white mb-2">Raheel</h3>
