@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-image.jpg";
+import heroImage from "@/assets/carpet-installer.webp";
 const raheelPhoto = "/lovable-uploads/3aee0e0d-1e7a-41ea-8b80-606a2c779518.png";
 export const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
