@@ -21,10 +21,13 @@ export const HeroSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center text-white">
           {/* Main Content */}
           <div className="lg:col-span-2 text-center lg:text-left">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight invisible lg:visible">
+            Carpet N Floor
+          </h1>
+            <h2 className="text-2xl sm:text-4xl md:text-3xl lg:text-4xl font-bold mb-6 leading-tight">
               Premium <span className="text-rich-gold">Carpeting</span><br />
               & Flooring Solutions
-            </h1>
+            </h2>
             <div className="mb-6 flex justify-center lg:justify-start">
               <span className="inline-block px-6 py-3 bg-rich-gold/20 border border-rich-gold/30 text-rich-gold rounded-full text-xl font-semibold backdrop-blur-sm">
                 📍 Proudly Serving Mississauga, Ontario

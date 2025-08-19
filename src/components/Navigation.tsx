@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
-import { Menu, X, Phone } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import logo from '@/assets/carpetnfloor-logo.png';
+import { useState, useEffect } from "react";
+import { Menu, X, Phone } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import logo from "@/assets/carpetnfloor-logo.png";
 
 export const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -12,39 +12,44 @@ export const Navigation = () => {
       setIsScrolled(window.scrollY > 50);
     };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
       setIsMobileMenuOpen(false);
     }
   };
 
   const navItems = [
-    { label: 'Home', id: 'home' },
-    { label: 'Services', id: 'services' },
-    { label: 'Gallery', id: 'gallery' },
-    { label: 'Process', id: 'process' },
+    { label: "Home", id: "home" },
+    { label: "Services", id: "services" },
+    { label: "Gallery", id: "gallery" },
+    { label: "Process", id: "process" },
     // { label: 'Testimonials', id: 'testimonials' },
     // { label: 'FAQ', id: 'faq' },
-    { label: 'Contact', id: 'contact' },
+    { label: "Contact", id: "contact" },
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled 
-        ? 'bg-background/95 backdrop-blur-md shadow-lg border-b border-border' 
-        : 'md:bg-white/10 md:backdrop-blur-sm bg-background/95 border-b border-border'
-    }`}>
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        isScrolled
+          ? "bg-background/95 backdrop-blur-md shadow-lg border-b border-border"
+          : "md:bg-white/10 md:backdrop-blur-sm bg-background/95 border-b border-border"
+      }`}
+    >
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center">
+          <div className="flex items-center space-x-2">
             <img src={logo} alt="CarpetnFloor" className="h-8 w-auto" />
+            <h1 className="text-2xl md:text-4xl lg:text-5xl md:text-white font-bold leading-tight">
+              Carpet N Floor
+            </h1>
           </div>
 
           {/* Desktop Navigation */}
@@ -70,7 +75,7 @@ export const Navigation = () => {
               variant="gold"
               size="sm"
               className="hidden sm:flex items-center gap-2"
-              onClick={() => window.open('tel:+1-647-886-0935', '_self')}
+              onClick={() => window.open("tel:+1-647-886-0935", "_self")}
             >
               <Phone className="h-4 w-4" />
               Call Now
@@ -80,10 +85,14 @@ export const Navigation = () => {
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className={`md:hidden hover:text-rich-gold transition-colors p-2 ${
-                isScrolled ? 'text-foreground' : 'text-white'
+                isScrolled ? "text-foreground" : "text-foreground"
               }`}
             >
-              {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {isMobileMenuOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
             </button>
           </div>
         </div>
@@ -106,7 +115,7 @@ export const Navigation = () => {
                   variant="gold"
                   size="sm"
                   className="w-full flex items-center justify-center gap-2"
-                  onClick={() => window.open('tel:+1-647-886-0935', '_self')}
+                  onClick={() => window.open("tel:+1-647-886-0935", "_self")}
                 >
                   <Phone className="h-4 w-4" />
                   Call Now: (647) 886-0935
