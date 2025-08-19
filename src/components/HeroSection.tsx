@@ -40,7 +40,7 @@ export const HeroSection = () => {
               <Button variant="hero" size="lg" className="text-lg px-8 py-6" onClick={() => scrollToSection('contact')}>
                 Get Free Estimate
               </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-white bg-white/10 backdrop-blur-sm text-foreground hover:bg-white hover:text-deep-wood" onClick={() => scrollToSection('gallery')}>
+              <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-white bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-deep-wood" onClick={() => scrollToSection('gallery')}>
                 View Our Work
               </Button>
             </div>
