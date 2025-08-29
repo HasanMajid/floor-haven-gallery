@@ -47,7 +47,7 @@ export const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <img src={logo} alt="CarpetnFloor" className="h-8 w-auto" />
-            <h1 className="text-2xl md:text-4xl lg:text-5xl md:text-white font-bold leading-tight">
+            <h1 className={`text-2xl md:text-4xl lg:text-5xl font-bold leading-tight ${isScrolled ? 'text-yellow-600' : 'md:text-white text-yellow-600'}`}>
               Carpet N Floor
             </h1>
           </div>
