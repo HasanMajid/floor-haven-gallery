@@ -126,7 +126,7 @@ export const ContactSection = () => {
               </p>
             </div>
             
-            <form className="space-y-6">
+            <form className="space-y-6" netlify>
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
