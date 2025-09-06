@@ -103,6 +103,46 @@ const carpetWork = [
     src: "/lovable-uploads/5368c50b-62f4-4817-8ecf-70f8011c68f5.png",
     title: "Color Sample Board",
     description: "Wide variety of colors and textures available"
+  },
+  {
+    src: "/lovable-uploads/79ec9be7-656b-42d0-b64a-ee38578893d0.png",
+    title: "Dark Outdoor Stair Runner",
+    description: "Weather-resistant charcoal carpet for exterior steps"
+  },
+  {
+    src: "/lovable-uploads/7a8c8271-815e-4ca4-b6a4-91a101eec503.png",
+    title: "Premium Carpet Sample Collection",
+    description: "Extensive selection of patterns and textures for custom installations"
+  },
+  {
+    src: "/lovable-uploads/22b65613-a53a-47d3-93a5-ee31bcd614ae.png",
+    title: "Traditional Patterned Stair Runner",
+    description: "Classic design with decorative border on elegant wooden staircase"
+  },
+  {
+    src: "/lovable-uploads/60e611ed-dd5c-473a-80f0-8bc0aba68d53.png",
+    title: "Herringbone Outdoor Installation",
+    description: "Durable herringbone pattern carpet for exterior staircases"
+  },
+  {
+    src: "/lovable-uploads/f0403ec5-f149-475a-9c7c-5b1cfe878d5e.png",
+    title: "Modern Grey Stair Runner",
+    description: "Contemporary textured carpet in neutral grey tones"
+  },
+  {
+    src: "/lovable-uploads/5d1670a7-09af-4b52-86ca-e8236567be25.png",
+    title: "Custom Staircase Transformation",
+    description: "Professional staircase ready for premium carpet installation"
+  },
+  {
+    src: "/lovable-uploads/065b197e-b262-42f6-aab5-9af16f76286d.png",
+    title: "Light Herringbone Pattern",
+    description: "Sophisticated light-colored herringbone runner on hardwood stairs"
+  },
+  {
+    src: "/lovable-uploads/cfbd9b6f-3555-4a05-b30e-408dc854eaf6.png",
+    title: "Dark Herringbone Stair Runner",
+    description: "Premium dark herringbone pattern with professional installation"
   }
 ];
 
