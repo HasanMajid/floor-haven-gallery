@@ -126,7 +126,9 @@ export const ContactSection = () => {
               </p>
             </div>
             
-            <form className="space-y-6" data-netlify="true" method="POST">
+            <form name="contact" className="space-y-6" data-netlify="true" method="POST" netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact" />
+              <input type="hidden" name="bot-field" />
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
@@ -134,6 +136,7 @@ export const ContactSection = () => {
                   </label>
                   <Input 
                     id="name" 
+                    name="name"
                     placeholder="Enter your full name" 
                     className="w-full"
                     required
@@ -145,6 +148,7 @@ export const ContactSection = () => {
                   </label>
                   <Input 
                     id="phone" 
+                    name="phone"
                     type="tel" 
                     placeholder="(555) 123-4567" 
                     className="w-full"
@@ -160,6 +164,7 @@ export const ContactSection = () => {
                   </label>
                   <Input 
                     id="email" 
+                    name="email"
                     type="email" 
                     placeholder="your.email@example.com" 
                     className="w-full"
@@ -172,6 +177,7 @@ export const ContactSection = () => {
                   </label>
                   <select 
                     id="service" 
+                    name="service"
                     className="w-full h-10 px-3 py-2 text-sm bg-background border border-input rounded-md focus:outline-none focus:ring-2 focus:ring-ring"
                   >
                     <option value="">Select a service</option>
@@ -191,6 +197,7 @@ export const ContactSection = () => {
                 </label>
                 <Input 
                   id="address" 
+                  name="address"
                   placeholder="Street address, City, State, ZIP" 
                   className="w-full"
                 />
@@ -202,6 +209,7 @@ export const ContactSection = () => {
                 </label>
                 <Textarea 
                   id="details" 
+                  name="details"
                   placeholder="Please describe your project, including room dimensions if known, carpet type preferences, timeline, and any specific requirements..."
                   className="w-full min-h-32"
                   rows={5}
@@ -215,6 +223,7 @@ export const ContactSection = () => {
                   </label>
                   <select 
                     id="timeline" 
+                    name="timeline"
                     className="w-full h-10 px-3 py-2 text-sm bg-background border border-input rounded-md focus:outline-none focus:ring-2 focus:ring-ring"
                   >
                     <option value="">Select timeline</option>
@@ -230,6 +239,7 @@ export const ContactSection = () => {
                   </label>
                   <select 
                     id="budget" 
+                    name="budget"
                     className="w-full h-10 px-3 py-2 text-sm bg-background border border-input rounded-md focus:outline-none focus:ring-2 focus:ring-ring"
                   >
                     <option value="">Select budget range</option>
@@ -243,7 +253,7 @@ export const ContactSection = () => {
               </div>
               
               <div className="text-center pt-4">
-                <Button variant="hero" size="lg" className="w-full md:w-auto px-12 py-4 text-lg">
+                <Button type="submit" variant="hero" size="lg" className="w-full md:w-auto px-12 py-4 text-lg">
                   Send Quote Request
                 </Button>
                 <p className="text-sm text-muted-foreground mt-4">
